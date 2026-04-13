@@ -28,23 +28,6 @@
       "iconPath": "icons/icon.png",
       "iconAsTemplate": true,
       "tooltip": "Pilot Suite"
-    },
-    "security": {
-      "csp": null,
-      "dangerousRemoteDomainIpcAccess": [
-        {
-          "domain": "app.meridiancoastsoft.com",
-          "enableTauriAPI": true,
-          "windows": ["main", "rdp-*"],
-          "plugins": ["store", "clipboard-manager", "notification"]
-        },
-        {
-          "domain": "dev.meridiancoastsoft.com",
-          "enableTauriAPI": true,
-          "windows": ["main", "rdp-*"],
-          "plugins": ["store", "clipboard-manager", "notification"]
-        }
-      ]
     }
   },
   "bundle": {

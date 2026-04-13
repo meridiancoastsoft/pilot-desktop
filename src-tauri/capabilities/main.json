@@ -1,0 +1,20 @@
+{
+  "identifier": "main-capability",
+  "description": "Main window capability",
+  "windows": ["main", "rdp-*"],
+  "remote": {
+    "urls": [
+      "https://app.meridiancoastsoft.com/*",
+      "https://dev.meridiancoastsoft.com/*"
+    ]
+  },
+  "permissions": [
+    "core:default",
+    "shell:allow-open",
+    "store:default",
+    "clipboard-manager:allow-read",
+    "clipboard-manager:allow-write",
+    "dialog:default",
+    "notification:default"
+  ]
+}
